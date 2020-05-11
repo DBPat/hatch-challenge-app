@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/styled": "^10.0.27",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -16,6 +17,7 @@
     "typescript": "~3.7.2"
   },
   "scripts": {
+    "tslint": "tslint --project tsconfig.json",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -35,5 +37,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tslint": "^6.1.2",
+    "tslint-react": "^5.0.0"
   }
 }
