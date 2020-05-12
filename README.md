@@ -26,4 +26,4 @@ You will also see any lint errors in the console.
 
 ### Production
 
-A production build of this project can be found at [live link](https://limitless-bayou-69669.herokuapp.com/)
+A production build of this project can be found at this [live link](https://limitless-bayou-69669.herokuapp.com/)
