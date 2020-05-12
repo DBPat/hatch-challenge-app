@@ -7,7 +7,7 @@ import { Applicant, RawApplicant, SortMethod } from './types'
 import { Container, TopBar } from './ApplicantTable.styles'
 import { Table, Modal, ModalHeader, ModalBody, ModalFooter, Button } from 'reactstrap'
 
-const url = 'http://private-041255-sakura3.apiary-mock.com/applicants'
+const url = 'https://private-041255-sakura3.apiary-mock.com/applicants'
 const dtf = new Intl.DateTimeFormat('en', { year: 'numeric', month: 'short', day: '2-digit', hour: 'numeric', minute: 'numeric', hour12: true })
 
 export default function ApplicantTable() {
